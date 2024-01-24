@@ -28,6 +28,7 @@
               clifford: "#da373d",
               "pink-red": "#FF4240",
               "semi-black": "#131318",
+              "linear-gradient-bg": "#13131880",
               "ass-des-color": "#13131899",
               "ass-border-color": "#13131833",
               "input-bg-color": "#13131808",
@@ -297,59 +298,62 @@
       
       <!-- tournaments section -->
       <section class="space-y-9">
-        <div class="w-full border-b-2 border-t-2 border-dashed border-ass-border-color py-8">
-          <div class="flex flex-col gap-y-6 justify-center items-center text-center lg:w-1/2 mx-auto">
-            <h2 class="text-4xl text-semi-black font-extrabold">Program Sections</h2>
-            <p class="text-base font-medium text-ass-des-color">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, libero consequatur. Eos debitis a natus quos consequatur fugit, praesentium dicta ab earum nesciunt cupiditate. Excepturi, in commodi minus quod cumque deleniti corrupti. Asperiores, reiciendis consequuntur.
-            </p>
-          </div>
-        </div>
-        <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6  lg:grid-rows-2">
-          <!-- card 1 -->
-          <div>
-            <div class="card bg-no-repeat bg-cover bg-center bg-base-100 shadow-xl  w-full" style="background-image: url('Images/3.png');">
-              
-              <div class="card-body lg:py-20 lg:px-20 lg:w-10/12">
-                <h2 class="card-title">Junior Program</h2>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary">Register</button>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <!-- card 2 -->
-          <div>
-            <div class="card bg-no-repeat bg-cover bg-center bg-base-100 shadow-xl  w-full" style="background-image: url('Images/3.png');">
-              
-              <div class="card-body lg:py-20 lg:px-20 lg:w-10/12">
-                <h2 class="card-title">Junior Program</h2>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary">Register</button>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <!-- card 3 -->
-          <div class="lg:col-span-2">
-            <div class="card bg-no-repeat bg-cover bg-center bg-base-100 shadow-xl  w-full" style="background-image: url('Images/3.png');">
-              
-              <div class="card-body lg:py-20 lg:px-20 lg:w-10/12">
-                <h2 class="card-title">Junior Program</h2>
-                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary">Register</button>
-                  </div>
-              </div>
-            </div>
-          </div>
+        <header>
 
-        </div>
+          <div class="w-full border-b-2 border-t-2 border-dashed border-ass-border-color py-8">
+            <div class="flex flex-col gap-y-6 justify-center items-center text-center lg:w-1/2 mx-auto">
+              <h2 class="text-4xl text-semi-black font-extrabold">Explore our Program Offerings</h2>
+              <p class="text-base font-medium text-ass-des-color">
+                Dive into a world of exciting hockey programs with our carefully crafted sections, designed to cater to players of all ages and skill levels. Immerse yourself in the Junior Program, a dynamic initiative tailored for young talents, where expert coaching meets a nurturing environment. Discover a seamless registration process, and embark on a journey that combines skill development, camaraderie, and the thrill of the game. Join us in shaping the future of hockey excellence through our diverse and engaging program offerings.
+              </p>
+            </div>
+          </div>
+        </header>
+        <main>
+
+          <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6  lg:grid-rows-3">
+            <!-- card 1 -->
+            <div>
+              <div class="card  bg-no-repeat bg-cover bg-center bg-base-100 bg-gradient-to-r from-sky-500 to-indigo-500 shadow-xl  w-full" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/2.png');">
+                
+                <div class="card-body lg:py-20 lg:px-20 lg:w-10/12">
+                  <h2 class="card-title text-3xl font-extrabold text-white">Junior Program</h2>
+                  <p class="text-white">Introduce your young ones to the joy of hockey in our Junior Program. Focused on fundamental skill development and teamwork, this initiative provides a supportive environment for kids to kickstart their hockey journey with excitement and passion.</p>
+                    <div class="card-actions justify-start">
+                      <button class="btn bg-pink-red text-white text-xl border-none">Register!</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div>
+              <div class="card bg-no-repeat bg-cover bg-center bg-base-100 shadow-xl  w-full" style="background-image: url('Images/3.png');">
+                
+                <div class="card-body lg:py-20 lg:px-20 lg:w-10/12">
+                  <h2 class="card-title text-3xl font-extrabold text-white">Teenage Training Program</h2>
+                  <p class="text-white"> Tailored for teenagers seeking a more advanced experience, our Teenage Training Program combines expert coaching with intensive skill enhancement. Emphasizing technique refinement and tactical understanding, this program propels teenage players to new levels of competition with a focus on growth and achievement.</p>
+                    <div class="card-actions justify-start">
+                      <button class="btn bg-pink-red text-white text-xl border-none">Register!</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="lg:col-span-2 ">
+              <div class="card bg-no-repeat bg-cover bg-center bg-base-100 shadow-xl  w-full" style="background-image: url('Images/4.png');">
+                
+                <div class="card-body lg:py-20 lg:px-20 lg:w-10/12">
+                  <h2 class="card-title text-3xl font-extrabold text-white">Professional Development Program</h2>
+                  <p class="text-white">For adults and seasoned players aspiring to compete at elite levels, our Professional Development Program offers advanced coaching, strategic refinement, and personalized training. Elevate your game, compete professionally, and fulfill your ambitions in the world of hockey by joining this program. Register now for a path to professional excellence.</p>
+                    <div class="card-actions justify-start">
+                      <button class="btn bg-pink-red text-white text-xl border-none">Register!</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </main>
       </section>
       <!-- e-commerce section -->
       <section>
